@@ -1,3 +1,3 @@
 # Flask Micro-Blog
 
-Created from a [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) YouTube video series on [coding with Flask](https://www.youtube.com/watch?v=zRwy8gtgJ1A).
+Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) YouTube video series on [coding with Flask](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH).
