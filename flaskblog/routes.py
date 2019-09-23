@@ -1,15 +1,7 @@
-#!/usr/bin/env python3
-
-import os
-
-from flask import Flask, render_template, url_for, flash, redirect
-from forms import RegistrationForm, LoginForm
-
-app = Flask(__name__)
-
-# SECRET_KEY generated through the python interpreter
-# Check out just before this: https://youtu.be/UIJKdCIEXUQ?t=705
-app.config['SECRET_KEY'] = '37d456110c111dbf6ac55f19113fadf4'
+from flaskblog.models import User, Post
+from flask import render_template, url_for, flash, redirect
+from flaskblog import app
+from flaskblog.forms import RegistrationForm, LoginForm
 
 # some dummy data for setting up templates. This will be deleted at some point.
 posts = [
@@ -56,8 +48,3 @@ def login():
         else:
             flash('Login unsuccessful. Please check username and password.', 'danger')
     return render_template('login.html', title='Login', form=form)
-
-# main conditional ============================
-
-if __name__ == "__main__":
-    app.run(debug=True)

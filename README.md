@@ -8,7 +8,8 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
 * ~~Run `export FLASK_APP=flaskblog.py`, then `export FLASK_DEBUG=1`, then input `flask run` to start the development server.~~
   - ~~Fuck, this is producing an error. I need to debug this before moving on.~~
 * **Nope, scratch the last**. I created an `.env` file to take care of part of this, and I reconfigured some of the `flaskblog.py` code as per an issue on [StackOverflow](https://stackoverflow.com/questions/55322179/flask-debug-mode-gives-an-oserror-errno-8-exec-format-error-when-running-us).
-  - Just run `flask run` to start the development server.
+  - ~~Just run `flask run` to start the development server.~~
   - ~~**Fuck, Fuck, Fuck**, it doesn't work! I'm going to work for a while without the Flask debug option, but I really need to sort this out.~~
-  - Nope, now I've got it! Run `python3 flaskblog.py` to start the dev server.
+  - ~~Nope, now I've got it! Run `python3 flaskblog.py` to start the dev server.~~
+  - Changed the structure of the project. Now I need to run `python3 run.py` in order to start the development server.
 * **NOTE**: Consider submitting this project as the [final project for CS50W](https://docs.cs50.net/web/2019/x/projects/final/final.html).
