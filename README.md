@@ -1,7 +1,7 @@
 # Flask Micro-Blog
 
 Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_gbFUs5g) YouTube video series on [coding with Flask](https://www.youtube.com/watch?v=MwZwr5Tvyxo&list=PL-osiE80TeTs4UjLw5MM6OjgkjFeUxCYH).
-* **NOTE**: I began this project from a web series from [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA), but I couldn't get the MySQL database working.
+* **NOTE**: I began this project from a web series from [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA), but I couldn't get the [MySQL](https://www.mysql.com/) database working.
 
 ---
 
@@ -12,5 +12,9 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
   - ~~Just run `flask run` to start the development server.~~
   - ~~**Fuck, Fuck, Fuck**, it doesn't work! I'm going to work for a while without the Flask debug option, but I really need to sort this out.~~
   - ~~Nope, now I've got it! Run `python3 flaskblog.py` to start the dev server.~~
-  - Changed the structure of the project. Now I need to run `python3 run.py` in order to start the development server.
+  - **IMPORTANT**: Changed the structure of the project. Now I need to run `python3 run.py` in order to start the development server.
 * **NOTE**: Consider submitting this project as the [final project for CS50W](https://docs.cs50.net/web/2019/x/projects/final/final.html).
+* The local development database is [SQLite](https://www.sqlite.org/index.html). The production version will switch to an online version of [PostgreSQL](https://www.postgresql.org/).
+* Check out [WTForms](https://wtforms.readthedocs.io/en/stable/#) for info on [validation](https://wtforms.readthedocs.io/en/stable/validators.html).
+  - See `forms.py`.
+* Check out the [documentation](https://flask-login.readthedocs.io/en/latest/) for `flask-login`.
