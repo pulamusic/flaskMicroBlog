@@ -12,9 +12,10 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
   - ~~Just run `flask run` to start the development server.~~
   - ~~**Fuck, Fuck, Fuck**, it doesn't work! I'm going to work for a while without the Flask debug option, but I really need to sort this out.~~
   - ~~Nope, now I've got it! Run `python3 flaskblog.py` to start the dev server.~~
-  - **IMPORTANT**: Changed the structure of the project. Now I need to run `python3 run.py` in order to start the development server.
+  - **IMPORTANT**: I changed the structure of the project. Now I need to run `python3 run.py` in order to start the development server.
 * **NOTE**: Consider submitting this project as the [final project for CS50W](https://docs.cs50.net/web/2019/x/projects/final/final.html).
 * The local development database is [SQLite](https://www.sqlite.org/index.html). The production version will switch to an online version of [PostgreSQL](https://www.postgresql.org/).
 * Check out [WTForms](https://wtforms.readthedocs.io/en/stable/#) for info on [validation](https://wtforms.readthedocs.io/en/stable/validators.html).
   - See `forms.py`.
 * Check out the [documentation](https://flask-login.readthedocs.io/en/latest/) for `flask-login`.
+* **NOTE**: This app will eventually be deployed to [Heroku](https://www.heroku.com/). Be sure to add it to my portfolio.
