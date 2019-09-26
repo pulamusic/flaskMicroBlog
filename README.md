@@ -22,3 +22,5 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
 * Figure out, at some point, how to create tests for this codebase. Check out the [documentation of Flask testing](https://flask.palletsprojects.com/en/1.1.x/testing/).
   - What other testing frameworks could I use? Check out [this article on Medium](https://medium.com/@neeti.jain/how-to-do-unit-testing-in-flask-and-find-code-coverage-fa5201399bc4).
 * Using the [itsdangerous](https://pythonhosted.org/itsdangerous/) plugin for data security.
+* Using [flask-mail](https://pythonhosted.org/Flask-Mail/) for password reset email.
+  - Check [here](https://stackoverflow.com/questions/37058567/configure-flask-mail-to-use-gmail) for directions on how to set up flask-mail with gmail.
