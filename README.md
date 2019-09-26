@@ -21,3 +21,4 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
 * **NOTE**: This app will eventually be deployed to [Heroku](https://www.heroku.com/). Be sure to add it to my portfolio.
 * Figure out, at some point, how to create tests for this codebase. Check out the [documentation of Flask testing](https://flask.palletsprojects.com/en/1.1.x/testing/).
   - What other testing frameworks could I use? Check out [this article on Medium](https://medium.com/@neeti.jain/how-to-do-unit-testing-in-flask-and-find-code-coverage-fa5201399bc4).
+* Using the [itsdangerous](https://pythonhosted.org/itsdangerous/) plugin for data security.
