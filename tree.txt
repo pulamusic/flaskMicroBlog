@@ -1,0 +1,76 @@
+Tree structure printed 2019-09-27 11:48:00, just for the hell of it.
+
+---
+
+Jamess-MacBook-Air:micro-blog jamesgcarroll$ tree
+.
+├── LICENSE.txt
+├── README.md
+├── __pycache__
+│   ├── data.cpython-37.pyc
+│   ├── flaskblog.cpython-37.pyc
+│   ├── forms.cpython-37.pyc
+│   └── models.cpython-37.pyc
+├── flaskblog
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-37.pyc
+│   │   ├── config.cpython-37.pyc
+│   │   ├── forms.cpython-37.pyc
+│   │   ├── models.cpython-37.pyc
+│   │   └── routes.cpython-37.pyc
+│   ├── config.py
+│   ├── main
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-37.pyc
+│   │   │   └── routes.cpython-37.pyc
+│   │   └── routes.py
+│   ├── models.py
+│   ├── posts
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-37.pyc
+│   │   │   ├── forms.cpython-37.pyc
+│   │   │   └── routes.cpython-37.pyc
+│   │   ├── forms.py
+│   │   └── routes.py
+│   ├── site.db
+│   ├── static
+│   │   ├── favicon.ico
+│   │   ├── main.css
+│   │   └── profile_pics
+│   │       ├── 0d5ecc3b998bbe76.jpg
+│   │       ├── 2c3ca6cc150fd0e2.JPG
+│   │       ├── 3d91939abfef275f.JPG
+│   │       ├── 7df3bb49749c582a.jpg
+│   │       ├── 88de579c4bef39d5.jpg
+│   │       ├── 8c486b8e143e8dfb.jpg
+│   │       ├── default.jpg
+│   │       ├── e7d13af4d1ed8378.jpg
+│   │       └── e993127888cacc37.JPG
+│   ├── templates
+│   │   ├── about.html
+│   │   ├── account.html
+│   │   ├── create_post.html
+│   │   ├── home.html
+│   │   ├── layout.html
+│   │   ├── login.html
+│   │   ├── post.html
+│   │   ├── register.html
+│   │   ├── reset_request.html
+│   │   ├── reset_token.html
+│   │   └── user_posts.html
+│   └── users
+│       ├── __init__.py
+│       ├── __pycache__
+│       │   ├── __init__.cpython-37.pyc
+│       │   ├── forms.cpython-37.pyc
+│       │   ├── routes.cpython-37.pyc
+│       │   └── utils.cpython-37.pyc
+│       ├── forms.py
+│       ├── routes.py
+│       └── utils.py
+└── run.py
+
+12 directories, 56 files
