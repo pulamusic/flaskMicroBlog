@@ -24,3 +24,4 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
 * Using the [itsdangerous](https://pythonhosted.org/itsdangerous/) plugin for data security.
 * Using [flask-mail](https://pythonhosted.org/Flask-Mail/) for password reset email.
   - Check [here](https://stackoverflow.com/questions/37058567/configure-flask-mail-to-use-gmail) for directions on how to set up flask-mail with gmail.
+  - Yay, I figured out the glitch I had been having with sending the reset email. The firewall at the community college library where I work on coding wasn't allowing me to contact an email server. I've had this problem before with connecting to databases. Fortunately, I can connect to the internet using my phone as a mobile hotspot. Problem solved.
