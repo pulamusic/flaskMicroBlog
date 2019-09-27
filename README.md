@@ -33,4 +33,5 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
 
 ### What's next for this project
 
-Either get the sidebar to work, or delete it.
+* Either get the sidebar to work, or delete it.
+* (2019-09-27): I did some work to deploy this code to [Heroku](https://dashboard.heroku.com/apps/pulamusic-flask-mini-blog), but I need to reconfigure the codebase and the database in order to upload it.
