@@ -26,3 +26,11 @@ Created from a [Corey Schafer](https://www.youtube.com/channel/UCCezIgC97PvUuR4_
   - Check [here](https://stackoverflow.com/questions/37058567/configure-flask-mail-to-use-gmail) for directions on how to set up flask-mail with gmail.
   - Yay, I figured out the glitch I had been having with sending the reset email. The firewall at the community college library where I work on coding wasn't allowing me to contact an email server. I've had this problem before with connecting to databases. Fortunately, I can connect to the internet using my phone as a mobile hotspot. Problem solved.
 * Restructured the code to be a modular app using [Blueprints](https://flask.palletsprojects.com/en/1.1.x/blueprints/).
+
+**NOTE**: At this point, after having finished the first 12 videos, I have finished coding the app. The [13th video](https://youtu.be/goToXTC96Co) is all about deploying the app to the internet using a custom-built Linux server. I'm going to leave it for now, hopefully figuring out how to deploy to Heroku at some point.
+
+---
+
+### What's next for this project
+
+Either get the sidebar to work, or delete it.
